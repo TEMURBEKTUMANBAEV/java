@@ -14,7 +14,7 @@ public class ExceptionExample {
             System.out.println(num1 / num2);
             System.out.println(numbers[4]);
         }catch (Exception e) {
-            System.out.println("Something went wrong! Please try after sometime");
+           e.printStackTrace();
         }
 
         System.out.println("Welcome to the Party");
