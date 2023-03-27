@@ -3,7 +3,7 @@ package com.java.class10;
 import java.util.Scanner;
 
 //coding interview process:
-//1. clarify gaps in the rrement by asking questions
+//1. clarify gaps in the rement by asking questions
 //2. write a pseudocode
 //3. write the code
 //4. debug your code -> checking your code for mistakes, visually.

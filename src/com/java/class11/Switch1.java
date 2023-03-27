@@ -14,8 +14,8 @@ public class Switch1 {
 //        }
 
         //once java finds the sd matching case
-        //it will enter the body that case execute it
-        //and it will enter the bodies of all of the following
+        //it will enter the body that case execute it,
+        //and it will enter the bodies of all the following
         //cases until the first break or end of the switch
         switch (rate) {
             case 1://2==1?
@@ -65,21 +65,21 @@ public class Switch1 {
             case "Alaska":
 //            case alaska: variables are not allowed in cases
             case il:
-                System.out.println("shippment cost is $10");
+                System.out.println("shipment cost is $10");
             case "Hawaii":
 //            case "Hawaii":// Duplicate cases are not allowed
-                System.out.println("shippment cost is $10");
+                System.out.println("shipment cost is $10");
                 break;
             case "NY":
-                System.out.println("shippment cost is $5");
+                System.out.println("shipment cost is $5");
                 break;
             case "Florida":
-                System.out.println("shippment cost is $7");
+                System.out.println("shipment cost is $7");
                 break;
             case "California":
-                System.out.println("shippment cost is $12");
+                System.out.println("shipment cost is $12");
                 break;
-//            case 10: experession data type and case data type must be same. compare apples to apples
+//            case 10: expression data type and case data type must be same. compare apples to apples
 
 
         }
