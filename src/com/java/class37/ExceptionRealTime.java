@@ -12,8 +12,12 @@ public class ExceptionRealTime {
         method3();
     }
 
-    static void method3()  {
-        method4();
+    static void method3() {method3();} {
+        try {
+            method4();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     static void method4() throws ClassNotFoundException {
