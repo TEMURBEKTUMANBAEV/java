@@ -10,7 +10,9 @@ public class ListExample {
         listOfNum.add(34);
         listOfNum.add(65);
         listOfNum.add(32);
-        listOfNum.add(2, 50);  
+        listOfNum.add(2, 50);
+
+        System.out.println(listOfNum);
 
         //get data form the list
         for (int i = 0; i < listOfNum.size(); i++)   {
