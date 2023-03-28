@@ -33,13 +33,7 @@ public class Replace {
 
 
         String str12 = "System.out.println(Hello World)";
-        //whenever you want append
-        System.out.println(str12.replace(")", ");"));
-
-
-        //replace the first matching occurance
-        String str13 = "system.out.println(Hello World)";
-        System.out.println(str13.replaceFirst("s", "S"));
+   
 
         String str14 = "I hate Java, I hate Programming";
         System.out.println(str14.replaceFirst("hate", "love"));
