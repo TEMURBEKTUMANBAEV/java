@@ -10,7 +10,7 @@ public class Foodingredient {
         map.put("Vegetable curry" ,"Vegetables, salt, oil, water, spices");
         map.put("Dal Pulses,",  "salt, water, spices, Pulses");
 
-      
+
 
     }
 }
