@@ -34,7 +34,7 @@ public class class35 {
                 wordsSet.add(word);
             }
         }
-        for (String word : wordsSet) {
+        for (String word : wordsSet){
             System.out.print(word + " ");
         }
     }
