@@ -22,5 +22,4 @@ public class HomeWork3 {
         }
         System.out.println(setOfWords);
     }
-
 }

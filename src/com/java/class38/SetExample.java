@@ -14,8 +14,8 @@ public class SetExample {
         fruits.add("Mango");
         fruits.add("Banana");
         fruits.add("Apple");
-
-        System.out.println(fruits);
-
+            for (String fruit : fruits) {
+                System.out.println(fruit);
+            }
     }
 }
