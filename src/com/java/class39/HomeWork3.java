@@ -13,6 +13,12 @@ public class HomeWork3 {
         System.out.println("Enter any String");
         String str = scanner.nextLine();
 
-        
+       String[] listOfWords = str.split(" ");
+
+       for( int i = 0; i < listOfWords.length; i++ ){
+        words.add(listOfWords[i]);
+       }
+
+       System.out.println(words);
     }
 }
