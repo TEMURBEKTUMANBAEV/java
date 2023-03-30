@@ -14,7 +14,7 @@ public class HomeWork1 {
         for (int i = 0; i < 5; i++) {
           numbers.add(sc.nextInt());
         }
-        Collections.sort(numbers);
+        Collections.reverse(numbers);
         System.out.println(numbers);
 
     }
