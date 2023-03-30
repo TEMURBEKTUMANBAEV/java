@@ -16,9 +16,10 @@ public class HomeWork3 {
        String[] listOfWords = str.split(" ");
 
        for( int i = 0; i < listOfWords.length; i++ ){
-        words.add(listOfWords[i]);
+        if(words.add(listOfWords[i].replace(",", ""))==false){
+            words.remove(listOfWords[i]);
+        }
        }
-
-       System.out.println(words);
+        System.out.println(words);
     }
 }
