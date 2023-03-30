@@ -13,7 +13,9 @@ public class MapExample {
         map.put("Chirag", 18);
         map.put("Madina", 230);
         map.put("Maxim", 24);
+
         System.out.println(map);
         System.out.println(map.get("Temurbek"));
+        System.out.println(map.size());
     }
 }
