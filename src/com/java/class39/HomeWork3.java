@@ -7,19 +7,20 @@ import java.util.Set;
 public class HomeWork3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Set<String> words = new HashSet<>();
+        Set<String> setOfWords = new HashSet<>();
 
 
         System.out.println("Enter any String");
-        String str = scanner.nextLine();
+        String str = scanner.nextLine().replace(",", "");
 
-       String[] listOfWords = str.split(" ");
+        String[] arrayOfWords = str.split(" ");
 
-       for( int i = 0; i < listOfWords.length; i++ ){
-        if(words.add(listOfWords[i].replace(",", ""))==false){
-            words.remove(listOfWords[i]);
+        for (int i = 0; i < arrayOfWords.length; i++) {
+            if (!setOfWords.add(arrayOfWords[i])) {
+                setOfWords.remove(arrayOfWords[i]);
+            }
         }
-       }
-        System.out.println(words);
+        System.out.println(setOfWords);
     }
+
 }
