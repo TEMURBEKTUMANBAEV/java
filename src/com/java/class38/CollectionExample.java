@@ -13,7 +13,7 @@ public class CollectionExample {
         listOfNum.add(32);
         listOfNum.add(2, 50);
 
-        System.out.println(listOfNum.contains(65));//true
+        System.out.println(listOfNum.contains(40));//true
         System.out.println(listOfNum.isEmpty());
 
 
