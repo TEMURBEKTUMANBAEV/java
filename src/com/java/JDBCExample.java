@@ -24,11 +24,12 @@ public class JDBCExample {
 
         // 3. Print Result
         while (rs.next()) {
-           for (int i = 1; i <= rsmd.getColumnCount(); i++) {
-               System.out.println(rs.getString(i) + "\t");
-           }
+            for (int i = 1; i <= rsmd.getColumnCount(); i++) {
+                System.out.print(rs.getString(i) + "|" + "\t");
+            }
             System.out.println();
         }
+
         // 4. Close
         con.close();
     }

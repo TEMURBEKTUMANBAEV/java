@@ -1,7 +1,5 @@
 package com.java.HomeWork;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
-
 import java.util.Scanner;
 
 public class class18one {
