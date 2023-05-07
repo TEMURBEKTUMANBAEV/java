@@ -6,7 +6,6 @@ JavaClassPrograms		- Name of the project
 
 External Libraries	- All libraries we have added into the project, , we don't have to touch anytime
 
-
 Scratches and Consoles	- It keep IntelliJ files, we don't have to touch anytime
 
 
