@@ -2,7 +2,6 @@ package com.java.class16;
 
 public class WhileLoop {
 
-
     public static void main(String[] args) {
         //what are loops?
         //In programming pretty often you need to rerun the same set of
