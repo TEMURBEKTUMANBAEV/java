@@ -14,7 +14,6 @@ public class StringPractice {
 
         String str4 = str  + " " + str2;
         System.out.println(str4);
-
         int a = 10;
         int b = 15;
 
