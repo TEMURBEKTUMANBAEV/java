@@ -8,7 +8,6 @@ What is imp programming lang in computer? - This answer you can write your own a
 
 
 SDET with Java / python/ C# but Java is most famous 
-
 JS
 Python
 C# 
